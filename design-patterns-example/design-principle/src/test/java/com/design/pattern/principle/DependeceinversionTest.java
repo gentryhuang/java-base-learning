@@ -1,8 +1,8 @@
 package com.design.pattern.principle;
 
+import com.design.pattern.principle.dependenceinversion.PythonCourse;
 import com.design.pattern.principle.dependenceinversion.JavaCourse;
 import com.design.pattern.principle.dependenceinversion.Person;
-import com.design.pattern.principle.dependenceinversion.PythonCourse;
 import org.junit.Test;
 
 /**
