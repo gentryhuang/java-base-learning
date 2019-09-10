@@ -1,4 +1,4 @@
-package com.design.pattern;
+package com.design.pattern.simplefactory;
 
 /**
  * Food

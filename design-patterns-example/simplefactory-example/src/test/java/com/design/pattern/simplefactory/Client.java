@@ -1,8 +1,10 @@
+package com.design.pattern.simplefactory;
+
 import com.common.base.ObjectUtils;
-import com.design.pattern.Bread;
-import com.design.pattern.Food;
-import com.design.pattern.FoodFactory;
-import com.design.pattern.Salad;
+import com.design.pattern.simplefactory.Bread;
+import com.design.pattern.simplefactory.Food;
+import com.design.pattern.simplefactory.FoodFactory;
+import com.design.pattern.simplefactory.Salad;
 import org.junit.Test;
 
 /**
