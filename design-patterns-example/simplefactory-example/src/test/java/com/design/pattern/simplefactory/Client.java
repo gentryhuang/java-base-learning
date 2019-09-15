@@ -15,6 +15,8 @@ import org.junit.Test;
  */
 public class Client {
 
+   /*
+    非简单工厂模式
     @Test
     public void simpleFactoryBefore(){
         // 这里需要依赖具体的生产类
@@ -22,17 +24,18 @@ public class Client {
         Food food1 = new Salad();
         food.produce();
         food1.produce();
-    }
+    }*/
 
+   /*
     @Test
     public void simpleFactoryByType(){
         // 创建一个简单工厂
         FoodFactory factory = new FoodFactory();
         // 由工厂创建实例对象
         Food food = factory.createFood("salad");
-
         food.produce();
     }
+    */
 
     @Test
     public void simpleFactoryByClass(){
