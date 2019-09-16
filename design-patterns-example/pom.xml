@@ -19,6 +19,7 @@
         <module>factorymethod-example</module>
         <module>abstractfactory-example</module>
         <module>builder-example</module>
+        <module>prototype-example</module>
     </modules>
 
 </project>
