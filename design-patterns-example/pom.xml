@@ -20,6 +20,7 @@
         <module>abstractfactory-example</module>
         <module>builder-example</module>
         <module>prototype-example</module>
+        <module>facade-example</module>
     </modules>
 
 </project>
