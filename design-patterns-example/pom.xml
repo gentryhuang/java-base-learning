@@ -21,6 +21,7 @@
         <module>builder-example</module>
         <module>prototype-example</module>
         <module>facade-example</module>
+        <module>decorator-example</module>
     </modules>
 
 </project>
