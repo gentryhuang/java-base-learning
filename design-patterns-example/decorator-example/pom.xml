@@ -12,5 +12,15 @@
     <groupId>com.code</groupId>
     <artifactId>decorator-example</artifactId>
 
+    <dependencies>
+        <!--servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
+    </dependencies>
+
 
 </project>
