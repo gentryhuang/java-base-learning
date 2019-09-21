@@ -10,7 +10,10 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class SauseDecorator extends AbstractDecorator {
-
+    /**
+     * 构造参数也可以写成具体子类型
+     * @param batterCake
+     */
     public SauseDecorator(AbstractBatterCake batterCake) {
         super(batterCake);
     }

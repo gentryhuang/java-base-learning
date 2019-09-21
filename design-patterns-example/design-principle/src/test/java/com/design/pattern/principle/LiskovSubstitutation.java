@@ -1,4 +1,4 @@
-package com.design.pattern.principle.liskovSubstitutation.inputmethod;
+package com.design.pattern.principle;
 
 import com.design.pattern.principle.liskovSubstitutation.inputmethod.Child;
 import org.junit.Test;
@@ -6,12 +6,12 @@ import org.junit.Test;
 import java.util.HashMap;
 
 /**
- * TestChild
+ * LiskovSubstitutation
  *
  * @author shunhua
  * @date 2019-09-15
  */
-public class TestChild {
+public class LiskovSubstitutation {
 
     @Test
     public void test(){
