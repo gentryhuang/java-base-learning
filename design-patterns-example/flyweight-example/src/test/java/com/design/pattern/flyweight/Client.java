@@ -15,7 +15,7 @@ public class Client {
     public void test(){
         for(int i = 0; i < 20; i++){
             String department = presentation[(int)(Math.random() * presentation.length)];
-            LeaderPresentation leaderPresentation = (LeaderPresentation) PresentationFactory.getPresentation(department);
+            Presentation leaderPresentation =  PresentationFactory.getPresentation(department);
             leaderPresentation.report();
         }
     }
