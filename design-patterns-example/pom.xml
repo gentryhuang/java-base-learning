@@ -24,6 +24,7 @@
         <module>decorator-example</module>
         <module>adapter-example</module>
         <module>flyweight-example</module>
+        <module>composite-example</module>
     </modules>
 
 </project>
