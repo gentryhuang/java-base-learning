@@ -14,7 +14,7 @@ import java.util.List;
 @Slf4j
 public class CourseCatalog extends CourseComponet {
     /**
-     * 课程目录下的课程集合
+     * 课程目录下的课程集合 ，这里使用统一抽象类型表示，这里就组合了课程对象
      */
     private List<CourseComponet> items = new ArrayList<>();
     /**
@@ -49,6 +49,9 @@ public class CourseCatalog extends CourseComponet {
         return this.catalogName;
     }
 
+    /**
+     * 打印目录以及目录下的课程
+     */
     @Override
     public void print() {
         log.info(catalogName);

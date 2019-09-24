@@ -3,7 +3,7 @@ package com.design.pattern.composite;
 import org.junit.Test;
 
 /**
- * Client
+ * Client 课程目录和课程，对客户端来说都是一个类型的对象
  *
  * @author shunhua
  * @date 2019-09-24
@@ -28,7 +28,7 @@ public class Client {
         catalog.addCatalog(gitCourse);
         catalog.addCatalog(javaCatalog);
 
-        // 课程目录就打印出
+        // 打印课程目录以及目录下的课程列表
         catalog.print();
     }
 }

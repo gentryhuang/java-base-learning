@@ -1,8 +1,8 @@
 package com.design.pattern.composite;
 
 /**
- * CourseComponet  方法中的抛出异常处理，是体现方法不能被使用，因为课程和课程目录使用的方法不同
- *
+ *  1. 方法中的抛出异常处理，是体现方法不能被使用，因为课程和课程目录使用的方法不同
+ *  2. 课程和课程目录使用统一类型供客户端访问
  * @author shunhua
  * @date 2019-09-24
  */
