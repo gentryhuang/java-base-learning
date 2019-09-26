@@ -25,6 +25,7 @@
         <module>adapter-example</module>
         <module>flyweight-example</module>
         <module>composite-example</module>
+        <module>templatemethod-example</module>
     </modules>
 
 </project>
