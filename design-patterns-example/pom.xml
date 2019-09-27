@@ -26,6 +26,7 @@
         <module>flyweight-example</module>
         <module>composite-example</module>
         <module>templatemethod-example</module>
+        <module>iterator-example</module>
     </modules>
 
 </project>
