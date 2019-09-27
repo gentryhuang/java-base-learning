@@ -27,6 +27,7 @@
         <module>composite-example</module>
         <module>templatemethod-example</module>
         <module>iterator-example</module>
+        <module>strategy-example</module>
     </modules>
 
 </project>
