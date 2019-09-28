@@ -45,17 +45,14 @@
 
 2. 实线-继承 | 虚线-实现
 
-   ![](./static/sx.png)
+   ![](./static/sx.png) ​
 
-   ​
+3. 空心菱形-聚合
 
-   3. 空心菱形-聚合
+   ![](./static/jh.png)
+4. 实心菱形-组合
 
-      ![](./static/jh.png)
-
-   4. 实心菱形-组合
-
-      ![](./static/zh.png)
+   ![](./static/zh.png)
 
    5. 组合关系中常见的数字表达
    
