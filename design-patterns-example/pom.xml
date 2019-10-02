@@ -28,6 +28,7 @@
         <module>templatemethod-example</module>
         <module>iterator-example</module>
         <module>strategy-example</module>
+        <module>interpreter-example</module>
     </modules>
 
 </project>
