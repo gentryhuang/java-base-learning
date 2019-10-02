@@ -30,6 +30,7 @@
         <module>strategy-example</module>
         <module>interpreter-example</module>
         <module>observer-example</module>
+        <module>singleton-example</module>
     </modules>
 
 </project>
