@@ -1,7 +1,7 @@
 package com.design.pattern.singleton.lazynosafe;
 
 /**
- * Test 测试
+ * HungrySingletonTest 测试
  *
  * @author shunhua
  * @date 2019-10-02
