@@ -31,6 +31,7 @@
         <module>interpreter-example</module>
         <module>observer-example</module>
         <module>singleton-example</module>
+        <module>proxy-example</module>
     </modules>
 
 </project>
