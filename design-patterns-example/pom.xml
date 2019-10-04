@@ -36,6 +36,8 @@
         <module>command-example</module>
         <module>mediator-example</module>
         <module>chainofresponsibility-example</module>
+        <module>visitor-example</module>
+        <module>state-example</module>
     </modules>
 
 </project>
