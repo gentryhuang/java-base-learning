@@ -33,6 +33,7 @@
         <module>singleton-example</module>
         <module>proxy-example</module>
         <module>memento-example</module>
+        <module>command-example</module>
     </modules>
 
 </project>
