@@ -32,6 +32,7 @@
         <module>observer-example</module>
         <module>singleton-example</module>
         <module>proxy-example</module>
+        <module>memento-example</module>
     </modules>
 
 </project>
