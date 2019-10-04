@@ -35,6 +35,7 @@
         <module>memento-example</module>
         <module>command-example</module>
         <module>mediator-example</module>
+        <module>chainofresponsibility-example</module>
     </modules>
 
 </project>
