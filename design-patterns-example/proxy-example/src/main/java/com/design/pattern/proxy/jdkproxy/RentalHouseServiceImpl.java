@@ -1,6 +1,5 @@
 package com.design.pattern.proxy.jdkproxy;
 
-import com.design.pattern.proxy.staticproxy.IRentalHouseService;
 import lombok.extern.slf4j.Slf4j;
 
 /**

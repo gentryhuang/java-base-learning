@@ -18,18 +18,18 @@ public class CglibProxy {
      * @param callBack  委托类对象
      * @return
      */
-    public static IRentalHouseService createCglibProxy(Class targetClass, MethodInterceptor callBack){
-        // 创建增强其
+    public static Object createCglibProxy(Class targetClass, MethodInterceptor callBack){
+        // 创建增强器
         Enhancer enhancer = new Enhancer();
 
         // 指定目标类
         enhancer.setSuperclass(targetClass);
 
-        // 设置回调接口
+        // 设置回调接口,指定委托对象
         enhancer.setCallback(callBack);
 
         // 创建并返回代理对象，即目标类的子类对象
-        return (IRentalHouseService) enhancer.create();
+        return enhancer.create();
     }
 
 }

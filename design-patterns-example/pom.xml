@@ -13,31 +13,85 @@
     <artifactId>design-patterns-example</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>bridge-example</module>
+
+        <!-- 设计原则 -->
         <module>design-principle</module>
+
+        <!-- 简单工厂模式 -->
         <module>simplefactory-example</module>
+
+        <!-- 以下是 GoF 23种设计模式 -->
+
+
+        <!-- 桥接模式 -->
+        <module>bridge-example</module>
+
+        <!-- 工厂方法模式 -->
         <module>factorymethod-example</module>
+
+        <!-- 抽象工厂模式 -->
         <module>abstractfactory-example</module>
+
+        <!-- 建造者模式 -->
         <module>builder-example</module>
+
+        <!-- 原型模式 -->
         <module>prototype-example</module>
+
+        <!-- 外观模式 -->
         <module>facade-example</module>
+
+        <!-- 装饰者模式 -->
         <module>decorator-example</module>
+
+        <!-- 适配器模式 -->
         <module>adapter-example</module>
+
+        <!-- 享元模式 -->
         <module>flyweight-example</module>
+
+        <!-- 组合模式 -->
         <module>composite-example</module>
+
+        <!-- 模版方法模式 -->
         <module>templatemethod-example</module>
+
+        <!-- 迭代器模式 -->
         <module>iterator-example</module>
+
+        <!-- 策略模式 -->
         <module>strategy-example</module>
+
+        <!-- 解释器模式 -->
         <module>interpreter-example</module>
+
+        <!-- 观察者模式 -->
         <module>observer-example</module>
+
+        <!-- 单例模式 -->
         <module>singleton-example</module>
+
+        <!-- 代理模式-->
         <module>proxy-example</module>
+
+        <!-- 备忘录模式 -->
         <module>memento-example</module>
+
+        <!-- 指令模式 -->
         <module>command-example</module>
-        <module>mediator-example</module>
+
+        <!--  中介者模式 -->
+       <module>mediator-example</module>
+
+        <!-- 责任链模式 -->
         <module>chainofresponsibility-example</module>
+
+        <!-- 访问者模式 -->
         <module>visitor-example</module>
+
+        <!-- 状态模式 -->
         <module>state-example</module>
+
     </modules>
 
 </project>

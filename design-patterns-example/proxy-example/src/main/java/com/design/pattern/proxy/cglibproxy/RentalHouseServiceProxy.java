@@ -8,7 +8,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * RentalHouseServiceProxy
+ * RentalHouseServiceProxy  没接口的时候，把使用接口类型的引用全都改为类类型即可
  *
  * @author shunhua
  * @date 2019-10-03
@@ -16,19 +16,31 @@ import java.lang.reflect.Method;
 @Slf4j
 public class RentalHouseServiceProxy implements MethodInterceptor {
 
+    /**
+     * 声明目标对象
+     */
+    private IRentalHouseService target;
+
+    public RentalHouseServiceProxy(IRentalHouseService target) {
+        super();
+        this.target = target;
+    }
 
     /**
-     *
-     * @param o  代理对象
-     * @param method 目标方法
-     * @param objects 目标方法参数列表
+     * @param obj         代理对象
+     * @param method      目标方法
+     * @param args        目标方法参数列表
      * @param methodProxy 目标方法的代理对象
      * @return
      * @throws Throwable
      */
     @Override
-    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        return null;
+    public Object intercept(Object obj, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
+        dialNumber();
+        // 执行目标方法
+        Object result = method.invoke(target, args);
+        signContract();
+        return result;
     }
 
     /**

@@ -17,13 +17,13 @@ public class Client {
         IRentalHouseService target = new RentalHouseServiceImpl();
 
         // 创建委托对象
-        RentalHouseServiceProxy rentalHouseServiceProxy = new RentalHouseServiceProxy();
+        RentalHouseServiceProxy rentalHouseServiceProxy = new RentalHouseServiceProxy(target);
 
         // 创建代理对象（接口实现类的代理对象）
-        IRentalHouseService cglibProxy = CglibProxy.createCglibProxy(target.getClass(), rentalHouseServiceProxy);
+        IRentalHouseService cglibProxy = (IRentalHouseService) CglibProxy.createCglibProxy(target.getClass(), rentalHouseServiceProxy);
 
         /**
-         * 调用代理对象的代理方法,注意当调用代理对象的代理方法时，InvocationHandler的invoke方法会被自动调用
+         * 调用代理对象的代理方法,注意当调用代理对象的代理方法时，MethodInterceptor的intercept方法会被自动调用
          */
         cglibProxy.rent();
     }
