@@ -1,5 +1,16 @@
 
-## 设计模式文档
+## :notebook: 设计模式文档
+
+- ### UML
+  - [UML入门](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/uml/UML%E7%B1%BB%E5%9B%BE%E5%8F%8A%E6%97%B6%E5%BA%8F%E5%9B%BE%E5%85%A5%E9%97%A8.md)
+- ### 设计模式原则
+  - [开闭原则](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/design-principle/src/main/java/com/design/pattern/principle/openclose/README.md)
+  - [依赖倒置原则](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/design-principle/src/main/java/com/design/pattern/principle/dependenceinversion/README.md)
+  - [单一职责原则](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/design-principle/src/main/java/com/design/pattern/principle/singleresponsibility/README.md)
+  - [接口隔离原则](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/design-principle/src/main/java/com/design/pattern/principle/interfacesegregation/README.md)
+  - [迪米特原则](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/design-principle/src/main/java/com/design/pattern/principle/demeter/README.md)
+  - [里氏替换原则](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/design-principle/src/main/java/com/design/pattern/principle/liskovSubstitutation/README.md)
+  - [合成复用原则](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/design-principle/src/main/java/com/design/pattern/principle/compositionaggregation/README.md)
 
 - ### 创建型
   - [工厂方法模式](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/factorymethod-example/static/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95.md) 
@@ -32,6 +43,9 @@
 
 - ### 非四人组设计模式 
   - [简单工厂模式](https://github.com/gentryhuang/java-base-learning/blob/master/design-patterns-example/simplefactory-example/static/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82.md)
+
+### :file_folder: 设计模式示例
+  - [设计模式代码示例](https://github.com/gentryhuang/java-base-learning/tree/master/design-patterns-example)
   
  
   
