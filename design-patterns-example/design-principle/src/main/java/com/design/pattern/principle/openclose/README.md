@@ -160,7 +160,7 @@ public class JavaCourse implements ICourse {
      Double getPrice();
  }
 ```
-**实体类 **
+**实体类**
 ```java
 package com.design.pattern.principle.openclose;
 
