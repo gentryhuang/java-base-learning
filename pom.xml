@@ -15,6 +15,7 @@
         <module>jvm-example</module>
         <module>common</module>
         <module>effective-java</module>
+        <module>basis-mixture</module>
     </modules>
 
     <properties>
